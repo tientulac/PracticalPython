@@ -17,7 +17,6 @@ name_check = "An".lower()
 
 check_count = _name.count(name_check)
 
-last_index = 0
 if check_count > 0:
     print(
         "+) Ten ban vua nhap co chua tu an \n+) So lan xuat hien la {} ".format(str(check_count))
